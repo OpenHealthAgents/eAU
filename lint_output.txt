@@ -1,0 +1,47 @@
+
+> telemedicine-landing@0.1.0 lint
+> eslint
+
+
+/home/kalyan/eAU/app/design-system/page.tsx
+   18:5   error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/home/kalyan/eAU/app/design-system/page.tsx:18:5
+  16 |
+  17 |   useEffect(() => {
+> 18 |     setMounted(true);
+     |     ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  19 |     const html = document.documentElement;
+  20 |     setIsDark(html.classList.contains("dark"));
+  21 |   }, []);  react-hooks/set-state-in-effect
+  171:22  error    Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    @typescript-eslint/ban-ts-comment
+  279:28  warning  'bg' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         @typescript-eslint/no-unused-vars
+
+/home/kalyan/eAU/components/layout/header.tsx
+  36:5  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps' or 'react-hooks/rules-of-hooks')
+  37:5  error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/home/kalyan/eAU/components/layout/header.tsx:37:5
+  35 |   React.useEffect(() => {
+  36 |     // eslint-disable-next-line react-hooks/exhaustive-deps, react-hooks/rules-of-hooks
+> 37 |     setIsMobileMenuOpen(false);
+     |     ^^^^^^^^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  38 |   }, [pathname]);
+  39 |
+  40 |   // Prevent scrolling when mobile menu is open  react-hooks/set-state-in-effect
+
+✖ 5 problems (3 errors, 2 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+

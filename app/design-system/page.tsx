@@ -15,6 +15,7 @@ export default function DesignSystemPage() {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
     const html = document.documentElement;
     setIsDark(html.classList.contains("dark"));
@@ -168,7 +169,7 @@ export default function DesignSystemPage() {
                     <Button variant="outline">Outline</Button>
                     <Button variant="ghost">Ghost</Button>
                     <Button variant="destructive">Destructive</Button>
-                    {/* @ts-ignore */}
+                    {/* @ts-expect-error Button component does not officially support glass variant type yet */}
                     <Button variant="glass" className="glassmorphism">Glassmorphism</Button>
                   </div>
                 </div>
@@ -276,7 +277,7 @@ export default function DesignSystemPage() {
   );
 }
 
-function ColorCard({ name, bg, text, hex, hasBorder = false }: { name: string, bg: string, text: string, hex: string, hasBorder?: boolean }) {
+function ColorCard({ name, text, hex, hasBorder = false }: { name: string, bg?: string, text: string, hex: string, hasBorder?: boolean }) {
   return (
     <div className={`overflow-hidden rounded-xl ${hasBorder ? 'border border-border' : ''}`}>
       <div className={`h-24 w-full flex items-end p-3`} style={{ backgroundColor: hex }}>

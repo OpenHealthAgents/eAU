@@ -15,14 +15,24 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <Trust />
-        <AiDemo />
-        <Features />
-        <Timeline />
-        <Employers />
-        <Physicians />
+        <div id="patienten">
+          <AiDemo />
+          <Features />
+          <Timeline />
+        </div>
+        <div id="unternehmen">
+          <Employers />
+        </div>
+        <div id="aerzte">
+          <Physicians />
+        </div>
         <Testimonials />
-        <FAQ />
-        <CTA />
+        <div id="faq">
+          <FAQ />
+        </div>
+        <div id="kontakt">
+          <CTA />
+        </div>
       </main>
     </div>
   );

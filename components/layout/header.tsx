@@ -11,11 +11,11 @@ import { cn } from "@/lib/utils";
 import { NavItem } from "@/types";
 
 const NAV_ITEMS: NavItem[] = [
-  { title: "Für Patienten", href: "/fuer-patienten" },
-  { title: "Für Ärzte", href: "/fuer-aerzte" },
-  { title: "Für Unternehmen", href: "/fuer-unternehmen" },
-  { title: "FAQ", href: "/faq" },
-  { title: "Kontakt", href: "/kontakt" },
+  { title: "Für Patienten", href: "/#patienten" },
+  { title: "Für Ärzte", href: "/#aerzte" },
+  { title: "Für Unternehmen", href: "/#unternehmen" },
+  { title: "FAQ", href: "/#faq" },
+  { title: "Kontakt", href: "/#kontakt" },
 ];
 
 export function Header() {

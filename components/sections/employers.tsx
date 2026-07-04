@@ -214,7 +214,7 @@ export function Employers() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 1, type: "spring", stiffness: 200 }}
-            className="absolute -right-4 md:-right-12 top-24 z-30 glassmorphism p-4 rounded-xl shadow-lg border border-white/20 flex items-center gap-3 animate-pulse"
+            className="absolute -right-4 md:-right-8 -bottom-6 md:-bottom-8 z-30 glassmorphism p-4 rounded-xl shadow-lg border border-white/20 flex items-center gap-3 animate-pulse"
             style={{ animationDuration: '4s' }}
           >
             <div className="h-10 w-10 rounded-full bg-brand-teal/10 flex items-center justify-center shrink-0">

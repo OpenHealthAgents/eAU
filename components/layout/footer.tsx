@@ -15,7 +15,7 @@ export function Footer() {
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
                 <Activity className="h-4 w-4 text-primary-foreground" />
               </div>
-              <span className="font-semibold text-lg tracking-tight">Aethera AI</span>
+              <span className="font-semibold text-lg tracking-tight">CareVia AI</span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-sm">
               Revolutionizing European healthcare through intelligent triage, seamless telemedicine, and secure digital workflows. 
@@ -107,7 +107,7 @@ export function Footer() {
                 <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">System Status</Link>
               </li>
               <li>
-                <span className="text-muted-foreground">hello@aethera-ai.example.com</span>
+                <a href="mailto:contact@carevia.live" className="text-muted-foreground hover:text-primary transition-colors">contact@carevia.live</a>
               </li>
             </ul>
           </div>
@@ -116,7 +116,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border/40 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© {currentYear} Aethera AI GmbH. All rights reserved.</p>
+          <p>© {currentYear} CareVia AI GmbH. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <Link href="#" className="hover:text-primary transition-colors">Imprint</Link>
             <Link href="#" className="hover:text-primary transition-colors">Privacy Policy</Link>

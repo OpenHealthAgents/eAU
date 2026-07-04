@@ -65,7 +65,7 @@ export function Header() {
             <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary shadow-glow transition-transform group-hover:scale-105">
               <Activity className="h-5 w-5 text-primary-foreground" />
             </div>
-            <span className="font-semibold text-xl tracking-tight">Aethera AI</span>
+            <span className="font-semibold text-xl tracking-tight">CareVia AI</span>
           </Link>
 
           {/* Desktop Nav */}
@@ -126,7 +126,7 @@ export function Header() {
                   <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary shadow-glow">
                     <Activity className="h-5 w-5 text-primary-foreground" />
                   </div>
-                  <span className="font-semibold text-xl tracking-tight">Aethera AI</span>
+                  <span className="font-semibold text-xl tracking-tight">CareVia AI</span>
                 </Link>
                 <button
                   onClick={() => setIsMobileMenuOpen(false)}

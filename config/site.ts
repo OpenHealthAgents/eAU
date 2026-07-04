@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: "Aethera AI",
+  name: "CareVia AI",
   description:
-    "Aethera AI is a modern European healthcare startup leveraging advanced predictive AI to revolutionize preventative care and clinical diagnostics.",
-  url: "https://aethera-ai.example.com",
-  ogImage: "https://aethera-ai.example.com/og.jpg",
+    "CareVia AI is a modern European healthcare startup leveraging advanced predictive AI to revolutionize preventative care and clinical diagnostics.",
+  url: "https://carevia-ai.example.com",
+  ogImage: "https://carevia-ai.example.com/og.jpg",
   keywords: [
     "Telemedicine",
     "Healthcare",
@@ -14,8 +14,8 @@ export const siteConfig = {
     "Germany"
   ],
   links: {
-    twitter: "https://twitter.com/aethera_ai",
-    github: "https://github.com/aethera-ai",
+    twitter: "https://twitter.com/carevia_ai",
+    github: "https://github.com/carevia-ai",
   },
 };
 

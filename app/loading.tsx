@@ -13,7 +13,7 @@ export default function Loading() {
         </div>
       </div>
       <p className="mt-6 text-sm font-medium text-muted-foreground animate-pulse tracking-widest uppercase">
-        Lade Aethera AI...
+        Lade CareVia AI...
       </p>
     </div>
   );

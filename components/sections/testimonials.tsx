@@ -7,27 +7,27 @@ import { Star, Quote } from "lucide-react";
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Michael W.",
+      name: "Thomas B.",
       role: "Patient",
       text: "Unglaublich effizient. Ich hatte am Sonntagmorgen starke Halsschmerzen und innerhalb von 15 Minuten einen Video-Termin. Das E-Rezept war sofort auf meinem Handy.",
       rating: 5,
-      initials: "MW",
+      initials: "TB",
       color: "bg-blue-500/10 text-blue-500"
     },
     {
-      name: "Dr. med. Julia K.",
+      name: "Dr. med. Sabine K.",
       role: "Allgemeinmedizinerin",
       text: "Die KI-gestützte Voranamnese nimmt mir extrem viel Dokumentationsarbeit ab. Die Plattform ist stabil, DSGVO-konform und lässt sich perfekt in meinen Praxisalltag integrieren.",
       rating: 5,
-      initials: "JK",
+      initials: "SK",
       color: "bg-brand-teal/10 text-[var(--brand-teal)]"
     },
     {
-      name: "Sarah M.",
+      name: "Katharina M.",
       role: "Patientin",
       text: "Endlich eine Telemedizin-App, die nicht abstürzt! Die Ärztin war sehr freundlich und kompetent. Meine elektronische Krankschreibung ging direkt an meinen Arbeitgeber.",
       rating: 5,
-      initials: "SM",
+      initials: "KM",
       color: "bg-purple-500/10 text-purple-500"
     }
   ];

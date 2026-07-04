@@ -24,10 +24,11 @@ export const metadata: Metadata = {
   keywords: siteConfig.keywords,
   authors: [
     {
-      name: "Aethera AI Team",
+      name: "CareVia AI Team",
+      url: "https://carevia-ai.example.com",
     },
   ],
-  creator: "Aethera AI",
+  creator: "CareVia AI",
   openGraph: {
     type: "website",
     locale: "de_DE",
@@ -49,7 +50,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
-    creator: "@aethera_ai",
+    creator: "@carevia_ai",
   },
   icons: {
     icon: "/icon",

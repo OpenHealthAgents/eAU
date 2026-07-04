@@ -82,7 +82,7 @@ export function Timeline() {
               const isLeft = step.align === "left";
               
               return (
-                <div key={step.number} className="relative flex items-center md:justify-center">
+                <div key={step.number} className={`relative flex items-center ${isLeft ? 'md:justify-start' : 'md:justify-end'}`}>
                   
                   {/* Timeline Node */}
                   <motion.div 
@@ -96,7 +96,7 @@ export function Timeline() {
                   </motion.div>
 
                   {/* Card Content */}
-                  <div className={`w-full md:w-1/2 flex pl-16 md:pl-0 ${isLeft ? 'md:justify-end md:pr-16' : 'md:justify-start md:pl-16'}`}>
+                  <div className={`w-full md:w-1/2 flex pl-16 md:pl-0 ${isLeft ? 'md:pr-16' : 'md:pl-16'}`}>
                     <motion.div
                       initial={{ opacity: 0, x: isLeft ? -50 : 50 }}
                       whileInView={{ opacity: 1, x: 0 }}

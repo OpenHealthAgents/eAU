@@ -44,7 +44,7 @@ export function CTA() {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-white text-sm font-medium backdrop-blur-sm"
             >
               <Sparkles className="h-4 w-4" />
-              Start your journey today
+              Starten Sie noch heute
             </motion.div>
 
             <motion.h2
@@ -65,7 +65,7 @@ export function CTA() {
               transition={{ delay: 0.2 }}
               className="text-lg md:text-xl text-white/70 max-w-xl mx-auto"
             >
-              Experience the future of telemedicine. Secure, fast, and exactly when you need it.
+              Erleben Sie die Zukunft der Telemedizin. Sicher, schnell und genau dann, wenn Sie sie brauchen.
             </motion.p>
 
             <motion.div

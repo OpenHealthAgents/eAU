@@ -31,10 +31,10 @@ export function Hero() {
   };
 
   const dashboardSteps = [
-    { icon: Stethoscope, label: "Symptoms", color: "text-blue-500", bg: "bg-blue-500/10" },
-    { icon: Bot, label: "AI Intake", color: "text-indigo-500", bg: "bg-indigo-500/10" },
-    { icon: Video, label: "Video Consultation", color: "text-purple-500", bg: "bg-purple-500/10" },
-    { icon: Pill, label: "Treatment", color: "text-emerald-500", bg: "bg-emerald-500/10" },
+    { icon: Stethoscope, label: "Symptome", color: "text-blue-500", bg: "bg-blue-500/10" },
+    { icon: Bot, label: "KI-Anamnese", color: "text-indigo-500", bg: "bg-indigo-500/10" },
+    { icon: Video, label: "Video-Sprechstunde", color: "text-purple-500", bg: "bg-purple-500/10" },
+    { icon: Pill, label: "Behandlung", color: "text-emerald-500", bg: "bg-emerald-500/10" },
     { icon: FileCheck, label: "eAU", color: "text-primary", bg: "bg-primary/10" },
   ];
 
@@ -68,7 +68,7 @@ export function Hero() {
               Sprechen Sie online mit approbierten Ärztinnen und Ärzten.
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
-              When medically appropriate, electronic sick certificates (eAU) and ePrescriptions can be issued following a physician&apos;s assessment.
+              Wenn medizinisch sinnvoll, können elektronische Arbeitsunfähigkeitsbescheinigungen (eAU) und E-Rezepte nach ärztlicher Beurteilung ausgestellt werden.
             </p>
           </motion.div>
 
@@ -107,12 +107,12 @@ export function Hero() {
               <div className="space-y-1">
                 <h3 className="font-semibold text-foreground flex items-center gap-2">
                   <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
-                  Live Session
+                  Live-Sitzung
                 </h3>
                 <p className="text-xs text-muted-foreground font-mono">ID: ATH-992-04</p>
               </div>
               <div className="h-8 px-3 rounded-full bg-primary/10 text-primary text-xs font-medium flex items-center">
-                In Progress
+                In Bearbeitung
               </div>
             </div>
 
@@ -134,7 +134,7 @@ export function Hero() {
                   <div className="flex-1">
                     <p className="font-medium text-sm text-foreground">{step.label}</p>
                     {i === 4 ? (
-                      <p className="text-xs text-emerald-500 font-medium">Issued Successfully</p>
+                      <p className="text-xs text-emerald-500 font-medium">Erfolgreich ausgestellt</p>
                     ) : (
                       <div className="h-1.5 w-full bg-muted rounded-full mt-1.5 overflow-hidden">
                         <motion.div 
@@ -174,8 +174,8 @@ export function Hero() {
               <FileCheck className="h-5 w-5 text-emerald-500" />
             </div>
             <div>
-              <p className="text-sm font-semibold">eAU Ready</p>
-              <p className="text-xs text-muted-foreground">Sent to employer</p>
+              <p className="text-sm font-semibold">eAU Fertig</p>
+              <p className="text-xs text-muted-foreground">An Arbeitgeber gesendet</p>
             </div>
           </motion.div>
 
@@ -195,7 +195,7 @@ export function Hero() {
                 +4k
               </div>
             </div>
-            <p className="text-xs font-medium text-muted-foreground">Licensed Doctors</p>
+            <p className="text-xs font-medium text-muted-foreground">Approbierte Ärzte</p>
           </motion.div>
         </motion.div>
 

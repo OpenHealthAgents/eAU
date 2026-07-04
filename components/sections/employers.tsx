@@ -16,11 +16,11 @@ import {
 
 export function Employers() {
   const benefits = [
-    "Fast access to doctors",
-    "Digital workflows",
-    "Reduced administrative effort",
-    "Analytics dashboard",
-    "Employer portal"
+    "Schneller Zugang zu Ärzten",
+    "Digitale Workflows",
+    "Reduzierter Verwaltungsaufwand",
+    "Analyse-Dashboard",
+    "Arbeitgeber-Portal"
   ];
 
   return (
@@ -123,7 +123,7 @@ export function Employers() {
                 </div>
               </div>
               <div className="text-xs font-semibold text-muted-foreground uppercase tracking-widest">
-                Employer Portal
+                Arbeitgeber-Portal
               </div>
               <div className="h-7 w-7 rounded-full bg-primary/20 flex items-center justify-center">
                 <Building2 className="h-3.5 w-3.5 text-primary" />
@@ -137,7 +137,7 @@ export function Employers() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="p-4 rounded-xl border border-border/50 bg-card shadow-sm space-y-2">
                   <div className="flex items-center justify-between text-muted-foreground">
-                    <span className="text-xs font-medium uppercase tracking-wider">Health Index</span>
+                    <span className="text-xs font-medium uppercase tracking-wider">Gesundheitsindex</span>
                     <Activity className="h-4 w-4 text-emerald-500" />
                   </div>
                   <div className="flex items-end gap-2">
@@ -150,13 +150,13 @@ export function Employers() {
 
                 <div className="p-4 rounded-xl border border-border/50 bg-card shadow-sm space-y-2">
                   <div className="flex items-center justify-between text-muted-foreground">
-                    <span className="text-xs font-medium uppercase tracking-wider">Sick Days</span>
+                    <span className="text-xs font-medium uppercase tracking-wider">Krankheitstage</span>
                     <TrendingDown className="h-4 w-4 text-primary" />
                   </div>
                   <div className="flex items-end gap-2">
                     <span className="text-2xl font-bold">-14%</span>
                     <span className="text-xs text-primary font-medium mb-1">
-                      vs. last quarter
+                      vs. Vorquartal
                     </span>
                   </div>
                 </div>
@@ -166,7 +166,7 @@ export function Employers() {
               <div className="p-5 rounded-xl border border-border/50 bg-card shadow-sm space-y-4">
                 <div className="flex items-center gap-2 text-sm font-semibold">
                   <PieChart className="h-4 w-4 text-primary" />
-                  eAU Processing Time
+                  eAU-Bearbeitungszeit
                 </div>
                 <div className="h-32 flex items-end justify-between gap-2 pt-4">
                   {[40, 70, 45, 90, 65, 30, 85].map((h, i) => (
@@ -185,7 +185,7 @@ export function Employers() {
               {/* Recent Activity List */}
               <div className="space-y-3">
                 <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
-                  Recent eAU Transfers
+                  Letzte eAU-Übermittlungen
                 </div>
                 {[1, 2].map((i) => (
                   <div key={i} className="flex items-center justify-between p-3 rounded-lg border border-border/40 bg-card/50">
@@ -199,7 +199,7 @@ export function Employers() {
                       </div>
                     </div>
                     <div className="h-5 px-2 rounded bg-emerald-500/10 text-emerald-500 text-[10px] font-bold flex items-center">
-                      VERIFIED
+                      GEPRÜFT
                     </div>
                   </div>
                 ))}
@@ -221,8 +221,8 @@ export function Employers() {
               <BriefcaseMedical className="h-5 w-5 text-brand-teal" />
             </div>
             <div>
-              <p className="text-sm font-semibold">Fully Integrated</p>
-              <p className="text-xs text-muted-foreground">HR Software Sync</p>
+              <p className="text-sm font-semibold">Vollständig integriert</p>
+              <p className="text-xs text-muted-foreground">HR-Software-Sync</p>
             </div>
           </motion.div>
 

@@ -18,7 +18,7 @@ export function Footer() {
               <span className="font-semibold text-lg tracking-tight">CareVia AI</span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-sm">
-              Revolutionizing European healthcare through intelligent triage, seamless telemedicine, and secure digital workflows. 
+              Revolutionierung des europäischen Gesundheitswesens durch intelligente Triage, nahtlose Telemedizin und sichere digitale Workflows. 
             </p>
             <div className="flex items-center gap-4 text-muted-foreground">
               <Link href="https://twitter.com" className="hover:text-primary transition-colors" aria-label="Twitter">
@@ -38,73 +38,73 @@ export function Footer() {
 
           {/* Product Links */}
           <div className="space-y-4">
-            <h4 className="font-semibold text-foreground">Product</h4>
+            <h4 className="font-semibold text-foreground">Produkt</h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Features</Link>
+                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Funktionen</Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Security</Link>
+                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Sicherheit</Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">ePrescription</Link>
+                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">E-Rezept</Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">eAU Process</Link>
+                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">eAU-Prozess</Link>
               </li>
             </ul>
           </div>
 
           {/* Solutions Links */}
           <div className="space-y-4">
-            <h4 className="font-semibold text-foreground">Solutions</h4>
+            <h4 className="font-semibold text-foreground">Lösungen</h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">For Patients</Link>
+                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Für Patienten</Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">For Doctors</Link>
+                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Für Ärzte</Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">For Employers</Link>
+                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Für Unternehmen</Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Pricing</Link>
+                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Preise</Link>
               </li>
             </ul>
           </div>
 
           {/* Company Links */}
           <div className="space-y-4">
-            <h4 className="font-semibold text-foreground">Company</h4>
+            <h4 className="font-semibold text-foreground">Unternehmen</h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">About Us</Link>
+                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Über uns</Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Careers</Link>
+                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Karriere</Link>
               </li>
               <li>
                 <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Blog</Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Press</Link>
+                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Presse</Link>
               </li>
             </ul>
           </div>
 
           {/* Contact Links */}
           <div className="space-y-4">
-            <h4 className="font-semibold text-foreground">Contact</h4>
+            <h4 className="font-semibold text-foreground">Kontakt</h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Support Center</Link>
+                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Support-Center</Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Contact Sales</Link>
+                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Vertrieb kontaktieren</Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">System Status</Link>
+                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Systemstatus</Link>
               </li>
               <li>
                 <a href="mailto:contact@carevia.live" className="text-muted-foreground hover:text-primary transition-colors">contact@carevia.live</a>
@@ -116,11 +116,11 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border/40 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© {currentYear} CareVia AI GmbH. All rights reserved.</p>
+          <p>© {currentYear} CareVia AI GmbH. Alle Rechte vorbehalten.</p>
           <div className="flex items-center gap-6">
-            <Link href="#" className="hover:text-primary transition-colors">Imprint</Link>
-            <Link href="#" className="hover:text-primary transition-colors">Privacy Policy</Link>
-            <Link href="#" className="hover:text-primary transition-colors">Terms of Service</Link>
+            <Link href="#" className="hover:text-primary transition-colors">Impressum</Link>
+            <Link href="#" className="hover:text-primary transition-colors">Datenschutz</Link>
+            <Link href="#" className="hover:text-primary transition-colors">AGB</Link>
           </div>
         </div>
       </div>

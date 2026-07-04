@@ -13,29 +13,29 @@ export function Timeline() {
   const steps = [
     {
       number: "1",
-      title: "Describe symptoms",
-      description: "Answer a few quick questions about your current health condition in our secure app.",
+      title: "Symptome beschreiben",
+      description: "Beantworten Sie in unserer sicheren App ein paar kurze Fragen zu Ihrem aktuellen Gesundheitszustand.",
       icon: Stethoscope,
       align: "left"
     },
     {
       number: "2",
-      title: "AI prepares consultation",
-      description: "Our AI immediately structures your data and creates a preliminary clinical intake for the physician.",
+      title: "KI bereitet Sprechstunde vor",
+      description: "Unsere KI strukturiert Ihre Daten sofort und erstellt eine vorläufige klinische Anamnese für den Arzt.",
       icon: Bot,
       align: "right"
     },
     {
       number: "3",
-      title: "Doctor consultation",
-      description: "Connect via secure high-definition video with a licensed specialist to discuss your treatment.",
+      title: "Ärztliche Sprechstunde",
+      description: "Verbinden Sie sich über ein sicheres, hochauflösendes Video mit einem zugelassenen Facharzt, um Ihre Behandlung zu besprechen.",
       icon: Video,
       align: "left"
     },
     {
       number: "4",
-      title: "Digital treatment",
-      description: "Receive your eAU, digital prescriptions, and personalized treatment plan directly in the app.",
+      title: "Digitale Behandlung",
+      description: "Erhalten Sie Ihre eAU, digitale Rezepte und Ihren persönlichen Behandlungsplan direkt in der App.",
       icon: Pill,
       align: "right"
     }
@@ -51,7 +51,7 @@ export function Timeline() {
             viewport={{ once: true, margin: "-100px" }}
             className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-primary/20 bg-primary/5 text-primary text-sm font-medium"
           >
-            How it works
+            So funktioniert's
           </motion.div>
           <motion.h2 
             initial={{ opacity: 0, y: 10 }}

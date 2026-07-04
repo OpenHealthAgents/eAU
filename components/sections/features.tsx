@@ -15,33 +15,33 @@ export function Features() {
   const features = [
     {
       icon: Bot,
-      title: "AI Symptom Intake",
-      description: "Our intelligent triage system analyzes your symptoms in seconds, prioritizing your case and matching you with the most qualified specialist for your specific needs."
+      title: "KI-Symptomerfassung",
+      description: "Unser intelligentes Triage-System analysiert Ihre Symptome in Sekundenschnelle, priorisiert Ihren Fall und weist Ihnen den für Ihre Bedürfnisse qualifiziertesten Facharzt zu."
     },
     {
       icon: Video,
-      title: "Video Consultation",
-      description: "Experience crystal-clear, lag-free video calls with your doctor directly from your smartphone or computer, bringing the clinic to your living room."
+      title: "Video-Sprechstunde",
+      description: "Erleben Sie kristallklare, verzögerungsfreie Videoanrufe mit Ihrem Arzt direkt über Ihr Smartphone oder Ihren Computer."
     },
     {
       icon: Pill,
-      title: "ePrescription",
-      description: "Receive your prescriptions digitally immediately after your consultation. Redeem them instantly at any local pharmacy or via integrated delivery services."
+      title: "E-Rezept",
+      description: "Erhalten Sie Ihre Rezepte direkt nach der Sprechstunde digital. Lösen Sie diese sofort in jeder Apotheke vor Ort oder über integrierte Lieferdienste ein."
     },
     {
       icon: FileCheck2,
-      title: "Electronic Documentation",
-      description: "Electronic certificates of incapacity for work (eAU) are automatically transmitted to your health insurance provider and employer securely and efficiently."
+      title: "Elektronische Dokumentation",
+      description: "Elektronische Arbeitsunfähigkeitsbescheinigungen (eAU) werden automatisch, sicher und effizient an Ihre Krankenkasse und Ihren Arbeitgeber übermittelt."
     },
     {
       icon: CalendarClock,
-      title: "Fast Scheduling",
-      description: "Say goodbye to waiting rooms. Book on-demand appointments within minutes or schedule consultations at your exact preferred time."
+      title: "Schnelle Terminvergabe",
+      description: "Verabschieden Sie sich von Wartezimmern. Buchen Sie Termine auf Abruf innerhalb von Minuten oder vereinbaren Sie Sprechstunden genau zu Ihrer Wunschzeit."
     },
     {
       icon: ShieldCheck,
-      title: "Secure Data Protection",
-      description: "Your health data is sovereign. We utilize end-to-end military-grade encryption and strictly adhere to European GDPR and ISO 27001 standards."
+      title: "Sicherer Datenschutz",
+      description: "Ihre Gesundheitsdaten sind sicher. Wir verwenden eine Ende-zu-Ende-Verschlüsselung nach Militärstandard und halten uns streng an die europäische DSGVO und ISO 27001-Standards."
     }
   ];
 
@@ -75,7 +75,7 @@ export function Features() {
             viewport={{ once: true, margin: "-100px" }}
             className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-primary/20 bg-primary/5 text-primary text-sm font-medium"
           >
-            Core Capabilities
+            Kernfunktionen
           </motion.div>
           <motion.h2 
             initial={{ opacity: 0, y: 10 }}
@@ -84,7 +84,7 @@ export function Features() {
             transition={{ delay: 0.1 }}
             className="text-4xl md:text-5xl font-semibold tracking-tight"
           >
-            Healthcare without the friction.
+            Gesundheitsversorgung ohne Reibungsverluste.
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 10 }}
@@ -93,7 +93,7 @@ export function Features() {
             transition={{ delay: 0.2 }}
             className="text-lg text-muted-foreground leading-relaxed"
           >
-            We&apos;ve reimagined the entire patient journey. From the moment you feel unwell to receiving your medication, every step is streamlined by advanced technology.
+            Wir haben die gesamte Patientenreise neu gedacht. Vom Moment des Unwohlseins bis zum Erhalt Ihrer Medikamente wird jeder Schritt durch fortschrittliche Technologie optimiert.
           </motion.p>
         </div>
 

@@ -19,11 +19,11 @@ import {
 import { cn } from "@/lib/utils";
 
 const SYMPTOMS = [
-  { id: "fever", label: "Fever", icon: Thermometer },
-  { id: "cough", label: "Cough", icon: Wind },
-  { id: "headache", label: "Headache", icon: Brain },
-  { id: "sore-throat", label: "Sore Throat", icon: ActivitySquare },
-  { id: "fatigue", label: "Fatigue", icon: BatteryWarning },
+  { id: "fever", label: "Fieber", icon: Thermometer },
+  { id: "cough", label: "Husten", icon: Wind },
+  { id: "headache", label: "Kopfschmerzen", icon: Brain },
+  { id: "sore-throat", label: "Halsschmerzen", icon: ActivitySquare },
+  { id: "fatigue", label: "Müdigkeit", icon: BatteryWarning },
 ];
 
 export function AiDemo() {
@@ -97,7 +97,7 @@ export function AiDemo() {
             className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-primary/20 bg-primary/5 text-primary text-sm font-medium"
           >
             <Sparkles className="h-4 w-4" />
-            Interactive Demo
+            Interaktive Demo
           </motion.div>
           <motion.h2 
             initial={{ opacity: 0, y: 10 }}
@@ -115,7 +115,7 @@ export function AiDemo() {
             transition={{ delay: 0.2 }}
             className="text-lg text-muted-foreground leading-relaxed"
           >
-            Our intelligent intake system matches your symptoms with available specialists in real-time, ensuring you receive care from the right doctor, faster than ever.
+            Unser intelligentes Aufnahmesystem gleicht Ihre Symptome in Echtzeit mit verfügbaren Spezialisten ab und stellt sicher, dass Sie schneller denn je vom richtigen Arzt behandelt werden.
           </motion.p>
 
           <motion.div 
@@ -127,7 +127,7 @@ export function AiDemo() {
           >
             <AlertCircle className="h-5 w-5 text-destructive shrink-0 mt-0.5" />
             <p className="text-sm">
-              <strong className="font-semibold text-destructive">Disclaimer:</strong> This is a UI demonstration only. It does not provide medical diagnoses or advice. Always consult a healthcare professional for actual medical concerns.
+              <strong className="font-semibold text-destructive">Hinweis:</strong> Dies ist nur eine UI-Demonstration. Sie bietet keine medizinischen Diagnosen oder Ratschläge. Wenden Sie sich bei tatsächlichen medizinischen Problemen immer an einen Arzt.
             </p>
           </motion.div>
         </div>
@@ -153,8 +153,8 @@ export function AiDemo() {
                 className="space-y-8"
               >
                 <div className="space-y-2 text-center">
-                  <h3 className="text-xl font-semibold">Select your symptoms</h3>
-                  <p className="text-sm text-muted-foreground">Select all that apply for AI analysis.</p>
+                  <h3 className="text-xl font-semibold">Wählen Sie Ihre Symptome</h3>
+                  <p className="text-sm text-muted-foreground">Wählen Sie alle zutreffenden Symptome für die KI-Analyse aus.</p>
                 </div>
 
                 <div className="flex flex-wrap gap-3 justify-center">
@@ -185,7 +185,7 @@ export function AiDemo() {
                     disabled={selectedSymptoms.length === 0}
                     onClick={handleAnalyze}
                   >
-                    Analyze Symptoms
+                    Symptome analysieren
                   </Button>
                 </motion.div>
               </motion.div>
@@ -208,14 +208,14 @@ export function AiDemo() {
                 </div>
                 
                 <div className="space-y-4 w-full text-center">
-                  <h3 className="text-xl font-semibold animate-pulse">AI is analyzing...</h3>
+                  <h3 className="text-xl font-semibold animate-pulse">KI analysiert...</h3>
                   <div className="w-full h-2 bg-muted rounded-full overflow-hidden">
                     <motion.div 
                       className="h-full bg-primary rounded-full"
                       style={{ width: `${progress}%` }}
                     />
                   </div>
-                  <p className="text-sm text-muted-foreground font-mono">{progress}% Complete</p>
+                  <p className="text-sm text-muted-foreground font-mono">{progress}% Abgeschlossen</p>
                 </div>
               </motion.div>
             )}
@@ -233,8 +233,8 @@ export function AiDemo() {
                   <div className="inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-emerald-500/10 text-emerald-500 mb-2">
                     <Sparkles className="h-8 w-8" />
                   </div>
-                  <h3 className="text-2xl font-semibold">Match Found</h3>
-                  <p className="text-sm text-muted-foreground">General Practitioner available</p>
+                  <h3 className="text-2xl font-semibold">Treffer gefunden</h3>
+                  <p className="text-sm text-muted-foreground">Allgemeinmediziner verfügbar</p>
                 </motion.div>
 
                 <div className="space-y-4">
@@ -243,8 +243,8 @@ export function AiDemo() {
                       <Clock className="h-5 w-5 text-primary" />
                     </div>
                     <div>
-                      <p className="text-sm text-muted-foreground">Estimated waiting time</p>
-                      <p className="font-semibold">~2 Minutes</p>
+                      <p className="text-sm text-muted-foreground">Geschätzte Wartezeit</p>
+                      <p className="font-semibold">~2 Minuten</p>
                     </div>
                   </motion.div>
 
@@ -253,7 +253,7 @@ export function AiDemo() {
                       <UserCheck className="h-5 w-5 text-[var(--brand-teal)]" />
                     </div>
                     <div>
-                      <p className="text-sm text-muted-foreground">Doctor available</p>
+                      <p className="text-sm text-muted-foreground">Arzt verfügbar</p>
                       <p className="font-semibold">Dr. med. Sarah Schmidt</p>
                     </div>
                   </motion.div>
@@ -261,10 +261,10 @@ export function AiDemo() {
 
                 <motion.div variants={itemVariants} className="pt-4 space-y-3">
                   <Button className="w-full shadow-glow rounded-xl h-12 text-base">
-                    Start Consultation Now
+                    Sprechstunde jetzt starten
                   </Button>
                   <Button variant="ghost" className="w-full rounded-xl" onClick={resetDemo}>
-                    Reset Demo
+                    Demo zurücksetzen
                   </Button>
                 </motion.div>
               </motion.div>

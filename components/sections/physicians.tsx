@@ -17,28 +17,28 @@ export function Physicians() {
   const benefits = [
     {
       icon: Clock,
-      title: "Flexible schedule",
-      description: "Work on your own terms. Choose your availability and consult from anywhere."
+      title: "Flexible Arbeitszeiten",
+      description: "Arbeiten Sie zu Ihren eigenen Bedingungen. Wählen Sie Ihre Verfügbarkeit und führen Sie Sprechstunden von überall aus durch."
     },
     {
       icon: Video,
-      title: "Remote consultations",
-      description: "Deliver high-quality care to patients regardless of their geographical location."
+      title: "Fernbehandlungen",
+      description: "Bieten Sie Patienten unabhängig von ihrem geografischen Standort eine hochwertige medizinische Versorgung."
     },
     {
       icon: Bot,
-      title: "AI-assisted documentation",
-      description: "Focus on the patient while our AI automatically drafts clinical notes and eAUs."
+      title: "KI-gestützte Dokumentation",
+      description: "Konzentrieren Sie sich auf den Patienten, während unsere KI automatisch klinische Notizen und eAUs entwirft."
     },
     {
       icon: Laptop,
-      title: "Modern software",
-      description: "Experience an intuitive, fast, and crash-free platform designed by doctors, for doctors."
+      title: "Moderne Software",
+      description: "Erleben Sie eine intuitive, schnelle und absturzsichere Plattform, die von Ärzten für Ärzte entwickelt wurde."
     },
     {
       icon: ShieldCheck,
-      title: "Secure infrastructure",
-      description: "Rest easy knowing all patient data is protected by end-to-end military-grade encryption."
+      title: "Sichere Infrastruktur",
+      description: "Seien Sie unbesorgt, da alle Patientendaten durch eine Ende-zu-Ende-Verschlüsselung auf Militärniveau geschützt sind."
     }
   ];
 

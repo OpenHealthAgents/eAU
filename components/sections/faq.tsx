@@ -8,24 +8,24 @@ import { cn } from "@/lib/utils";
 
 const faqs = [
   {
-    question: "How do online consultations work?",
-    answer: "Our process is simple and entirely digital. First, you complete a quick AI-assisted symptom intake form. Based on your symptoms, we match you with a qualified specialist. You then join a secure, high-definition video call directly from your smartphone or browser without downloading any additional software."
+    question: "Wie funktionieren Online-Konsultationen?",
+    answer: "Unser Prozess ist einfach und komplett digital. Zunächst füllen Sie einen kurzen, KI-gestützten Fragebogen zu Ihren Symptomen aus. Basierend darauf vermitteln wir Sie an einen qualifizierten Facharzt. Anschließend nehmen Sie direkt über Ihr Smartphone oder Ihren Browser an einem sicheren, hochauflösenden Videoanruf teil, ohne zusätzliche Software herunterladen zu müssen."
   },
   {
-    question: "How secure is my data?",
-    answer: "We take your privacy extremely seriously. All data is processed in accordance with strict European GDPR regulations and stored on local, ISO 27001 certified servers. Every video consultation and data transfer is secured using military-grade end-to-end encryption."
+    question: "Wie sicher sind meine Daten?",
+    answer: "Wir nehmen Ihren Datenschutz extrem ernst. Alle Daten werden gemäß den strengen europäischen DSGVO-Richtlinien verarbeitet und auf lokalen, ISO 27001 zertifizierten Servern gespeichert. Jede Videokonsultation und Datenübertragung ist mit einer Ende-zu-Ende-Verschlüsselung nach Militärstandard gesichert."
   },
   {
-    question: "Can I receive an ePrescription?",
-    answer: "Yes. If your consulting physician deems it medically appropriate, they can issue a fully valid electronic prescription (E-Rezept). This will be instantly available in your app, and you can redeem it at any local pharmacy in Germany or order delivery online."
+    question: "Kann ich ein E-Rezept erhalten?",
+    answer: "Ja. Wenn Ihr behandelnder Arzt es für medizinisch sinnvoll erachtet, kann er ein voll gültiges elektronisches Rezept (E-Rezept) ausstellen. Dieses ist sofort in Ihrer App verfügbar und Sie können es in jeder lokalen Apotheke in Deutschland einlösen oder online zur Lieferung bestellen."
   },
   {
-    question: "How long do appointments take?",
-    answer: "We eliminate the waiting room. Typically, you can connect with a doctor within 5-10 minutes. The consultation itself usually lasts between 10 to 15 minutes, depending on your medical needs, ensuring you receive thorough and efficient care."
+    question: "Wie lange dauern die Termine?",
+    answer: "Wir machen das Wartezimmer überflüssig. In der Regel können Sie innerhalb von 5-10 Minuten mit einem Arzt verbunden werden. Die Konsultation selbst dauert meist zwischen 10 und 15 Minuten, abhängig von Ihren medizinischen Bedürfnissen, um eine gründliche und effiziente Versorgung zu gewährleisten."
   },
   {
-    question: "Can physicians issue an eAU?",
-    answer: "Absolutely. Following a professional medical assessment during the video call, our licensed doctors can issue an electronic certificate of incapacity for work (eAU). This is automatically and securely transmitted to your health insurance provider and your employer."
+    question: "Können Ärzte eine eAU ausstellen?",
+    answer: "Absolut. Nach einer professionellen medizinischen Beurteilung während des Videoanrufs können unsere approbierten Ärzte eine elektronische Arbeitsunfähigkeitsbescheinigung (eAU) ausstellen. Diese wird automatisch und sicher an Ihre Krankenkasse und Ihren Arbeitgeber übermittelt."
   }
 ];
 
@@ -59,7 +59,7 @@ export function FAQ() {
             transition={{ delay: 0.1 }}
             className="text-4xl md:text-5xl font-semibold tracking-tight"
           >
-            Clear answers. <span className="text-gradient-premium">No confusion.</span>
+            Klare Antworten. <span className="text-gradient-premium">Keine Verwirrung.</span>
           </motion.h2>
         </div>
 

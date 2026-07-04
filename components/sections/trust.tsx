@@ -20,7 +20,7 @@ export function Trust() {
     },
     {
       icon: LockKeyhole,
-      title: "End-to-End Encryption",
+      title: "Ende-zu-Ende-Verschlüsselung",
       description: "Sämtliche Kommunikation und Video-Konsultationen sind durch militärische Verschlüsselungsstandards vor fremdem Zugriff geschützt."
     },
     {

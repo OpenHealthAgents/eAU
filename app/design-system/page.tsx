@@ -169,7 +169,6 @@ export default function DesignSystemPage() {
                     <Button variant="outline">Outline</Button>
                     <Button variant="ghost">Ghost</Button>
                     <Button variant="destructive">Destructive</Button>
-                    {/* @ts-expect-error Button component does not officially support glass variant type yet */}
                     <Button variant="glass" className="glassmorphism">Glassmorphism</Button>
                   </div>
                 </div>

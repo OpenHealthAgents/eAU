@@ -222,7 +222,7 @@ export function Employers() {
             </div>
             <div>
               <p className="text-sm font-semibold">Vollständig integriert</p>
-              <p className="text-xs text-muted-foreground">HR-Software-Sync</p>
+              <p className="text-xs text-muted-foreground">HR-Software-Synchronisation</p>
             </div>
           </motion.div>
 

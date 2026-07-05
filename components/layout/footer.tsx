@@ -98,7 +98,7 @@ export function Footer() {
             <h4 className="font-semibold text-foreground">Kontakt</h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Support-Center</Link>
+                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Hilfecenter</Link>
               </li>
               <li>
                 <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Vertrieb kontaktieren</Link>
